@@ -1,0 +1,60 @@
+.container {
+    display:block;
+    margin: auto;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 50;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0, 0, 10, rgb(240, 185, 252);
+    color: white;
+}
+description {
+    font-size: 18px; 
+    margin: auto;
+    text-align: center;text-shadow: 0, 0, 10, rgb(240, 185, 252);
+    color: white;
+}
+
+.profile-pic {
+width: 150px;
+height: 150px;
+margin:auto;
+}
+
+a {
+    padding: 10px;
+    font-family:sans-serif;
+    font-size:20px;
+    text-transform: uppercase;
+    align-content: center;
+    
+}
+.spacer{
+    display: flex;
+    margin: 10%;
+    align-content: center;
+    text-align: center;
+}
+.fcc-btn {
+    display:flex;
+    font-family:sans-serif;
+    font-size: 23;
+    background-color: #040693;
+    border: 1px groove rgb(240, 185, 252);
+    border-radius: 25px;
+    margin: 5%;
+    padding: 30px 20px;
+    width: 300px; 
+    justify-content: center;
+    align-content: center;
+}
+a:hover {
+color: rgb(223, 115, 247)}
+
+body {
+background-image: linear-gradient(#dc124e,#7a2fa1,#3e4fbe,#0aa2f0);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
